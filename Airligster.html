@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+        rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+        crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+    <style>
+        * {
+            list-style: none;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        a {
+            padding: 20px 10px 0px 10px;
+            text-decoration: none;
+            color: black;
+            font-size: 17px;
+            font-weight: 500;
+        }
+
+        #nav {
+            padding: 20px;
+            background-color: #FFFFFF;
+        }
+
+        .container-fluid .row .col-4 img:hover {
+            transform: scale(1.1);
+            overflow: hidden;
+            width: 85%;
+        }
+
+        .img {
+            border-radius: 8px;
+            box-shadow: 0px 0px 1px rgb(197, 197, 197);
+            margin-top: 30px;
+            padding-top: 20%;
+        }
+
+        .card {
+            padding: 5px 20px 10px 20px;
+            /* border: 1px solid black; */
+            border-radius: 5px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        .card button {
+            width: 150px;
+            padding: 5px;
+            font-size: 15px;
+            color: white;
+            background-color: #5451D2;
+            border-radius: 15px;
+            border: none;
+        }
+
+        .card button:hover {
+            background-color: #4C96E4;
+        }
+
+        .text1 {
+            display: flex;
+            justify-content: center;
+            border-radius: 0px 10px 0px 10px;
+            align-items: center;
+            padding-left: 10%;
+            margin-top: -3px;
+            z-index: 5px;
+            /* position: static; */
+        }
+
+        /* .text2 {
+            display: flex; 
+            justify-content: center;
+            border-radius: 0px 10px 0px 10px;
+            text-align: center;
+            padding-left: 10%;
+            padding-top: 1%;
+        }
+
+        .text3 {
+            display: flex;
+            justify-content: center;
+            border-radius: 0px 10px 0px 10px;
+            text-align: center;
+            padding-left: 10%;
+            padding-top: 1%;
+        } */
+
+        .btn_see_more {
+            font-size: 15px;
+            color: #5451D2;
+            border: 1px solid #5451D2;
+            background: transparent;
+            width: 150px;
+            align-items: center;
+            margin: auto;
+            border-radius: 30px;
+            margin-bottom: 10%;
+            height: 30px;
+        }
+
+        .btn_see_more:hover {
+            background-color: #5451D2;
+            color: white;
+        }
+        .travel_btn{
+            height: 40px;
+            width: 65%;
+            background-color: blue;
+            font: 30px;
+            font-weight: 400;
+            color: white;
+            border-radius: 0px 14px;
+            text-align: center;
+            padding: 10px;
+            margin-left: 5%;
+            margin-top: -20px;
+            position: relative;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div id="nav" class="container-fluid">
+        <div class="row">
+            <div class="col-1"><img src="https://www.airlingster.com/images/logo.png"
+                    style="height: 40px;width: 100px;margin-left: 15%;"></div>
+            <div class="col-9" style="display: inline-block;padding-left: 30%;">
+                <a href="#">Home</a>
+                <a href="#">About us</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="col-1"><button type="button" class="dropdown-toggle btn btn-outline-secondary">
+                    <a href="#" id="btn" style="">EN</a></div>
+            </button>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div class="container-fluid" style="background-color: #F7F1FD;">
+        <div class="row">
+
+            <div class="col-6" style="padding-top: 12%;padding-left: 8%;">
+                <p style="color: #5451D2;font-weight: bold; padding-top: 10%;">FLIGHT, HOTEL & CAR RENTAL</p>
+                <h2
+                    style="font-weight: bolder; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+                    Discover The Best Flight With Us.</h2>
+                <div>
+
+                </div>
+            </div>
+            <div class="col-6">
+                <img class="img"
+                    style="height: 80%;"
+                    src="https://www.airlingster.com/_next/image?url=%2Fimages%2Fbanner.png&w=640&q=75">
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <div class="container-fluid" style="padding-top: 10%;">
+        <div class="row">
+            <h2 style="text-align: center;font-family: Parisienne,cursive; color: #5451D2;">Travel lists</h2>
+        </div>
+        <div class="row">
+            <h1 style="text-align: center;font-weight: bold;">Customize <span style="color: #5451D2;">Travel</span></h1>
+        </div>
+        <div class="row " style="padding-top: 5%;padding-left: 5%;">
+            <div class="col-4" id="1">
+                <div style="height: 80%; width: 85%; overflow: hidden;">
+                    <img src="	https://www.airlingster.com/_next/image?url=%2Fimages%2Fbusiness_travel.jpg&w=384&q=75"
+                        alt="#" style="height: 100%; width: 100%; padding: 0% 0% 0% 0%; transition: 1s; z-index: 5px; border-radius: 5px;"> 
+                </div>
+                <div class="travel_btn">travel</div>
+                
+            </div>
+            <div class="col-4 " id="1">
+                <div style="height: 80%; width: 85%; overflow: hidden;">
+                    <img src="https://www.airlingster.com/_next/image?url=%2Fimages%2Fcorporate_travel.jpg&w=384&q=75"
+                        alt="#" style="height: 100%; width: 100%; padding: 0% 0% 0% 0%; transition: 1s; z-index: 5px; border-radius: 5px;">
+                </div>
+                <div class="text1" style="background-color: #5451D2; height:15%; width: 75%;">
+                    <h5 class="2" style="color: white; padding-right: 5px;">Group Travel</h5>
+                </div>
+            </div>
+            <div class="col-4" id="1">
+                <div style="height: 80%; width: 85%; overflow: hidden;">
+                    <img src="https://www.airlingster.com/_next/image?url=%2Fimages%2Fgroup_travel.jpg&w=384&q=75"
+                        alt="#" style="height: 100%; width: 100%; padding: 0% 0% 0% 0%; transition: 1s; z-index: 5px; border-radius: 5px;">
+                </div >
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" style="padding-top: 10%;">
+        <div class="row">
+            <h2 style="text-align: center;font-family: Parisienne,cursive; color: #5451D2;">Blog lists</h2>
+        </div>
+        <div class="row">
+            <h1 style="text-align: center;font-weight: bold;">Latest <span style="color: #5451D2;">Blogs</span></h1>
+        </div>
+        <div class="row" style="padding-top: 2%;padding-left: 5%;padding-right: 5%;">
+            <div class="col-4">
+                <div class="card">
+                    <h3 style="text-align: center; font-weight: bold;">hello guys</h3>
+                    <p style="text-align: justify;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet
+                        repellendus aperiam voluptate molestiae est id? Beatae quia nemo quisquam. Sint tempora possimus
+                        nihil cum. Officia quibusdam expedita veniam illum, voluptate ipsam! Quas voluptas vitae nostrum
+                        dolor quibusdam veritatis, quod dignissimos.</p>
+                    <button>Read More</button>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <h3 style="text-align: center; font-weight: bold;">hello guys</h3>
+                    <p style="text-align: justify;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet
+                        repellendus aperiam voluptate molestiae est id? Beatae quia nemo quisquam. Sint tempora possimus
+                        nihil cum. Officia quibusdam expedita veniam illum, voluptate ipsam! Quas voluptas vitae nostrum
+                        dolor quibusdam veritatis, quod dignissimos.</p>
+                    <button>Read More</button>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <h3 style="text-align: center; font-weight: bold;">hello guys</h3>
+                    <p style="text-align: justify;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet
+                        repellendus aperiam voluptate molestiae est id? Beatae quia nemo quisquam. Sint tempora possimus
+                        nihil cum. Officia quibusdam expedita veniam illum, voluptate ipsam! Quas voluptas vitae nostrum
+                        dolor quibusdam veritatis, quod dignissimos.</p>
+                    <button>Read More</button>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 7%;padding-top: 30px;">
+            <div class="col-5">
+
+            </div>
+            <div class="col-2">
+                <button class="btn_see_more">SEE MORE</button>
+            </div>
+            <div class="col-5">
+
+            </div>
+        </div>
+    </div>
+    <!-- <div class=""> -->
+    <div class="row m-0 p-0">
+        <div class="col-3">
+            <a>
+                <img src="https://www.airlingster.com/images/logo.png" alt="logo" style="height: 40px; width: 100px;">
+            </a>
+            <p
+                style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                Discover amazing things to do <br>everywhere you go.</p>
+        </div>
+        <div class="col-3">
+            <div>
+                <h3>Company</h3>
+                <div>
+                <div style="height: 2px; width: 30px; background-color: #5451D2; display: inline-block; margin-bottom: 18px; margin-left: 3px;"></div>
+                <div style="height: 2px; width: 10px; background-color: #070707; margin-left: 5px; margin-bottom: 18px; display: inline-block;"></div>
+                </div>
+                <ul>
+                    <li><a href="about">About Us</a></li>
+                    <li><a href="Blog">Blog</a></li>
+                    <li><a href="Contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-3">
+            <div>
+                <h3>support</h3>
+                <ul>
+                    <li><a href="policy">Policy</a></li>
+                    <li><a href="terms">Terms and condition</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-3">
+            <div>
+                <h3>Contact</h3>
+                <ul>
+                    <li><a href="Email">Email: support@airlingster.com</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="container-fluid" style="background-color: #262626;color: white;">
+        <div class="col-7">
+            <h1
+                style="font-weight: bold;text-align: justify;margin-left: 5%;padding-top: 10%;padding-bottom: 10%;margin-top: 5%;">
+                Enjoy Your Trip To The Best Flight. We Provided Each And Every Time.</h1>
+        </div>
+        <div class="col-5">
+            <img src="" </div>
+        </div>
+</body>
+
+</html>
