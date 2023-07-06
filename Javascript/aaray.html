@@ -9,6 +9,7 @@
     <script>
         //To create an array
         const cars = ["toyoto", "hero", "honda"];
+        const food = ["burger", "pizza", "momos"];
         // console.log(cars);
 
         //accessing array element
@@ -59,6 +60,28 @@
         //by unshift it is use to pop the element in a array in starting.
         console.log(cars.unshift("Ram"));
         console.log(cars);
+        
+
+        //merging an array(concanting)
+        const add = cars.concat(food);
+        console.log(add);
+        
+        // flat() method creates a new array with sub-array elements
+        const bike =[[1,2], [3,4], [5,6]];
+        console.log(bike.flat());
+        console.log(bike.length);
+
+
+        // It is used to add new items in a array.
+        //2 is used to add number in the index of 2.
+        // And 0 is indiactes how many elements show be removed.
+        console.log(bike.splice(2, 0, "10","19"));
+        console.log(bike.length);
+        console.log(bike);
+
+        // slice method is used to piece in a array
+        console.log(bike.slice(1));
+
     </script>
 </body>
 </html>
