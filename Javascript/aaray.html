@@ -29,6 +29,36 @@
 
         //accessing last of array
         console.log(cars[cars.length-1]);
+
+
+        //loooping array*
+        // const cars1 = ["toyoto", "hero", "honda"];
+        // let leg = cars1.length;
+        // console.log(cars1);
+        
+
+        //push the element in a array(The push method is pushing in the last of the array)
+        cars.push("dishant");
+
+        //pop element is use to pop the element in array in the last.
+        cars.pop();
+        console.log(cars);
+
+        //recognize an array
+        //by Array.isArray
+        console.log(Array.isArray(cars));
+
+        //by instanceof
+        console.log(cars instanceof Array);
+        
+
+        //by shift it is use to pop the elementin a array in a starting.
+        console.log(cars.shift());
+
+
+        //by unshift it is use to pop the element in a array in starting.
+        console.log(cars.unshift("Ram"));
+        console.log(cars);
     </script>
 </body>
 </html>
